@@ -1,0 +1,217 @@
+body{
+    background-color:rgb(0 57 91);
+    font-family: 'Bree Serif', serif;
+}
+h1{
+    color: antiquewhite;
+      text-align: left;
+      line-height: 70px;
+      margin-top: 0;
+      font-size: 3rem;
+      
+}
+p{
+    color:antiquewhite;
+    padding-top: 30px;
+    font-size:1.3rem;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+  
+}
+.home-img{
+    max-width: 100%;
+    float:right;
+
+    
+}
+.scroll-container {
+    height: 200px; 
+}
+.topnav {
+    background-color: rgb(1 50 78);
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+
+  .topnav a.active {
+    
+    color: white;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Style the navbar */
+.header-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+/* Style the navbar links */
+.header-nav li {
+    margin-right: 20px;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    text-decoration: none;
+}
+
+/* Style the icon */
+.header-nav img {
+    width: 25px;
+    position: relative;
+    
+    margin-right: 5px;
+}
+.header-nav .podcast-link {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+}
+
+.lead{
+    background-color: black;
+    padding-bottom: 15px;
+}
+
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Styles for the slides */
+.mySlides {
+  display: none;
+
+}
+
+/* Style for navigation dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+ .slideimg{
+  border-radius:10%;
+  width:350px;
+  height:500px;
+  
+}
+.slideshow-container{
+  background-color:beige;
+ 
+  border-radius:  10%;/* Add curved border radius */
+      
+  
+}
+#slides{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#textimg{
+  display: flex;
+}
+#features p{
+  color:black;
+ 
+}
+#features{
+  padding-top:40px;
+  margin-left:30px;
+}
+
+#brushdesign{
+  text-align: center;
+  position: relative;
+}
+.textbrush{
+  position:absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+.mensection{
+  width:465px;
+  height:465px;
+  border-radius: 10%;
+  
+}
+.mentorshipsection{
+  margin-top: 100px;
+  margin-left:200px;
+  display:flex;
+   position:relative;
+  
+}
+.membersdown{
+  position:relative;
+  display:flex;
+}
+.avatar{
+  width:193px;
+  height:36px;
+  margin-left: 30px;
+}
+#testimonial{
+  margin-left: 250px;
+  text-align:center;
+  display:flex;
+}
+.testclass{
+  position:absolute;
+}
+
+.testimg {
+  display: flex;
+  overflow: hidden;
+  max-width: 450px; /* Adjust the maximum width as needed */
+}
+
+.testi {
+  display: none;
+  /* Add a transition effect */
+}
+
+.testi.active {
+  display: block;
+}
+.imagetestimonial{
+  text-align: center;
+}
